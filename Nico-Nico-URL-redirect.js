@@ -1,10 +1,12 @@
 // ==UserScript==
 // @name         Nico-Nico-URL-redirect
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      1.0.0
 // @description  ニコニコのドメインのスマホ版表示を直します
 // @author       You
-// @match        *://*/*
+// @match        *://sp.nicovideo.jp/*
+// @match        *://sp.seiga.nicovideo.jp/*
+// @match        *://dic.nicovideo.jp/t/a/*
 // @grant        none
 // ==/UserScript==
 
