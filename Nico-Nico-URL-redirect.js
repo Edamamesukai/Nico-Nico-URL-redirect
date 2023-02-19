@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Nico-Nico-URL-redirect
-// @namespace    http://tampermonkey.net/
-// @version      1.0.1
+// @namespace    https://github.com/Edamamesukai
+// @version      1.0.2
 // @description  ニコニコのドメインのスマホ版表示を直します
 // @author       Edamame_sukai
 // @match        *://sp.nicovideo.jp/*
@@ -13,7 +13,6 @@
 (function() {
     'use strict';
 
-    // Your code here...
     console.log("niconico domain auto changer 実行します")
     // 動画プレイヤーがスマホ表示の場合、パソコン表示に直す
     if (location.href.match("sp.nicovideo.jp")) {
